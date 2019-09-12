@@ -12,10 +12,10 @@ int main()
   std::cin>>num1;
   std::cout<<"Please enter another whole number:\n";
   std::cin>>num2;
-  if (num1>num2)
+         
   std::cout<<"Of those two numbers, the biggest is: "<<(num1>num2) ;
  if (num1>num2) 
- {
+ {  
         cout<<num1<<endl;
 
  }  
