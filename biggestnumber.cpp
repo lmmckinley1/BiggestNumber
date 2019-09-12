@@ -13,7 +13,7 @@ int main()
   std::cout<<"Please enter another whole number:\n";
   std::cin>>num2;
   if (num1>num2)
-  std::cout<<"Of those two numbers, the biggest is: ";
+  std::cout<<"Of those two numbers, the biggest is: "<<(num1>num2) ;
  if (num1>num2) 
  {
         cout<<num1<<endl;
@@ -23,8 +23,7 @@ int main()
  {  
         cout<<num2<<endl;
 
- }   
-  std::cout<<std::endl<<"Thank you for playing.\n";
+ } std::cout<<std::endl<<"Thank you for playing.\n";
   
   return 0;
 }
